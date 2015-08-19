@@ -1173,3 +1173,10 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+  /*********************************************
+ * CUSTOM
+ *********************************************/
+.lowercase {
+  text-transform: lowercase;
+}
