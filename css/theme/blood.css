@@ -123,12 +123,16 @@ body {
   display: inline-block; }
 
 .reveal q {
-  font-style: italic; }
+  quotes: initial;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 45px;
+}
 
 .reveal pre {
   display: block;
   position: relative;
-  width: 90%;
+  width: 92%;
   margin: 20px auto;
   text-align: left;
   font-size: 0.55em;
@@ -211,8 +215,9 @@ body {
 .reveal section img {
   margin: 15px 0px;
   /*background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eee;*/
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  border: 4px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+}
 
 .reveal a img {
   -webkit-transition: all 0.15s linear;
@@ -223,6 +228,19 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-color: #a23;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+  #blessings img {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+  }
+
+  #blessings q {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+  }
 
 /*********************************************
  * NAVIGATION CONTROLS
@@ -283,3 +301,19 @@ body {
 
 .reveal small code {
   vertical-align: baseline; }
+
+/*********************************************
+ * CUSTOM STYLES
+ *********************************************/
+
+.topic-headline {
+  color: #327CCB;
+}
+
+.highlight--heirloom-hydrangea {
+  color: #327CCB;
+}
+
+section .large-code pre {
+  font-size: 24px;
+}
